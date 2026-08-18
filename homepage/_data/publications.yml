@@ -1,0 +1,23 @@
+# ============================================================
+# Publications
+# 每篇论文复制一整个 “- year: ...” 块即可
+# 没有某个链接时，直接删掉对应的 links 项
+# authors 支持 HTML，例如用 <strong>你的名字</strong> 加粗自己
+# ============================================================
+- year: 2026
+  title: "Your First Paper Title"
+  authors: "Author A, <strong>Your Name</strong>, Author C, Author D"
+  venue: "Journal / Conference Name, 2026"
+  links:
+    - label: "PDF"
+      url: "#"
+    - label: "DOI"
+      url: "#"
+
+- year: 2025
+  title: "Your Second Paper Title"
+  authors: "<strong>Your Name</strong>, Author B, Author C"
+  venue: "Journal / Conference Name, 2025"
+  links:
+    - label: "PDF"
+      url: "#"
