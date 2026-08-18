@@ -1,3 +1,0 @@
-把你现有的 CV.pdf（你的研究汇报/PPT 转换后的 PDF）放在仓库根目录即可。
-模板默认读取：/CV.pdf
-如果你的 PDF 使用其他文件名，请修改 _data/profile.yml 中 research_overview.file。
