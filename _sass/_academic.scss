@@ -146,6 +146,15 @@ body {
   letter-spacing: 0;
   line-height: 1.45;
 }
+.publication-main h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.publication-main h3 a:hover {
+  color: #005b9f;
+  text-decoration: underline;
+}
 .publication-authors,
 .publication-venue {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "Microsoft YaHei", sans-serif;
