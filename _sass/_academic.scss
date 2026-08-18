@@ -473,4 +473,20 @@ html {
 }
 
 
+/* ============================================================
+   Wide-screen layout fix
+   Keep the fixed sidebar aligned with the 1220px main container
+   ============================================================ */
 
+@media (min-width: 1220px) {
+  .sidebar-left {
+    width: 305px !important;
+    max-width: 305px;
+  }
+
+  .academic-content {
+    margin-left: 305px;
+    width: 915px;
+    max-width: 915px;
+  }
+}
