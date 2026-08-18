@@ -17,7 +17,15 @@
   </div>
 
   <div class="academic-role">{{ profile.role }}</div>
-  <div class="academic-affiliation">{{ profile.affiliation }}</div>
+  <div class="academic-affiliation">
+    {{ profile.affiliation }}
+  </div>
+  
+  {% if profile.department %}
+    <div class="academic-department">
+      {{ profile.department }}
+    </div>
+  {% endif %}
   <div class="academic-location"><i class="fas fa-map-marker-alt"></i> {{ profile.location }}</div>
   <div class="academic-email">
     <a href="mailto:{{ profile.email }}"><i class="fas fa-envelope"></i> {{ profile.email }}</a>
