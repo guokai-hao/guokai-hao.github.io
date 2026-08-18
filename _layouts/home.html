@@ -66,6 +66,7 @@ layout: default
   <h2>荣誉获奖</h2>
 
   <div class="honors-container">
+
     {% for section in site.data.honors %}
       <div class="honors-category">
 
@@ -73,25 +74,49 @@ layout: default
           {{ section.title }}
         </h3>
 
-        {% for group in section.groups %}
-
-          {% if group.name and group.name != "" %}
-            <h4 class="honors-group-title">
-              {{ group.name }}
-            </h4>
-          {% endif %}
-
+        {% if section.items %}
           <div class="honors-list">
-            {% for honor in group.items %}
+            {% for honor in section.items %}
               <div class="honor-item">
 
-                <div class="honor-date">
-                  {{ honor.date }}
+                <div class="honor-year">
+                  {{ honor.year }}
                 </div>
 
                 <div class="honor-content">
+                  <span class="honor-title">
+                    {{ honor.title }}
+                  </span>
 
-                  <div class="honor-title-line">
+                  {% if honor.award %}
+                    <span class="honor-award">
+                      {{ honor.award }}
+                    </span>
+                  {% endif %}
+                </div>
+
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+
+        {% if section.groups %}
+          {% for group in section.groups %}
+
+            <h4 class="honors-group-title">
+              {{ group.name }}
+            </h4>
+
+            <div class="honors-list">
+              {% for honor in group.items %}
+                <div class="honor-item">
+
+                  <div class="honor-year">
+                    {{ honor.year }}
+                  </div>
+
+                  <div class="honor-content">
                     <span class="honor-title">
                       {{ honor.title }}
                     </span>
@@ -103,25 +128,19 @@ layout: default
                     {% endif %}
                   </div>
 
-                  {% if honor.organization %}
-                    <div class="honor-organization">
-                      {{ honor.organization }}
-                    </div>
-                  {% endif %}
-
                 </div>
+              {% endfor %}
+            </div>
 
-              </div>
-            {% endfor %}
-          </div>
+          {% endfor %}
+        {% endif %}
 
-        {% endfor %}
       </div>
     {% endfor %}
+
   </div>
 </section>
 {% endif %}
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
