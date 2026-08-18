@@ -379,3 +379,82 @@ html {
     font-size: .86rem;
   }
 }
+
+
+
+/* ============================================================
+   Featured Research Overview
+   ============================================================ */
+
+.overview-feature-card {
+  display: block;
+  margin: 1.1rem 0 1.8rem;
+  padding: .85rem 1rem;
+  border: 1px solid #d7e4ec;
+  border-left: 4px solid #005b8f;
+  border-radius: 5px;
+  background: #f8fbfd;
+  color: inherit;
+  text-decoration: none;
+  transition: background-color .15s ease,
+              border-color .15s ease,
+              transform .15s ease;
+}
+
+.overview-feature-card:hover {
+  background: #f2f8fb;
+  border-color: #b8d3e3;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.overview-feature-label {
+  margin-bottom: .3rem;
+  color: #005b8f;
+  font-size: .74rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+}
+
+.overview-feature-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.overview-feature-text {
+  min-width: 0;
+}
+
+.overview-feature-text h3 {
+  margin: 0 0 .25rem;
+  color: #004f80;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.overview-feature-text p {
+  margin: 0;
+  color: #666;
+  font-size: .84rem;
+  line-height: 1.55;
+}
+
+.overview-feature-action {
+  flex-shrink: 0;
+  color: #005b8f;
+  font-size: .82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@media (max-width: $sm-width) {
+  .overview-feature-content {
+    display: block;
+  }
+
+  .overview-feature-action {
+    margin-top: .5rem;
+  }
+}
