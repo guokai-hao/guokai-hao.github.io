@@ -286,3 +286,117 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+
+
+/* ============================================================
+   Honors and Awards
+   ============================================================ */
+
+.honors-container {
+  margin-top: .7rem;
+}
+
+.honors-category {
+  margin-bottom: 1.8rem;
+}
+
+.honors-category-title {
+  margin: 0 0 .65rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid #e5e5e5;
+  color: #00558c;
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Arial, "Microsoft YaHei", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.honors-group-title {
+  margin: .85rem 0 .3rem 5.5rem;
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Arial, "Microsoft YaHei", sans-serif;
+  font-size: .88rem;
+  font-weight: 600;
+}
+
+.honors-list {
+  margin: 0;
+}
+
+.honor-item {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 1rem;
+  padding: .62rem 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.honor-date {
+  padding-top: .08rem;
+  color: #888;
+  font-size: .82rem;
+  white-space: nowrap;
+}
+
+.honor-content {
+  min-width: 0;
+}
+
+.honor-title-line {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: .38rem;
+}
+
+.honor-title {
+  color: #333;
+  font-size: .9rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.honor-award {
+  display: inline-block;
+  padding: .05rem .42rem;
+  border: 1px solid #b9d4e5;
+  border-radius: 4px;
+  background: #f4f9fc;
+  color: #005b8f;
+  font-size: .72rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.honor-organization {
+  margin-top: .12rem;
+  color: #777;
+  font-size: .8rem;
+  line-height: 1.45;
+}
+
+
+/* Mobile */
+@media (max-width: $sm-width) {
+
+  .honor-item {
+    grid-template-columns: 1fr;
+    gap: .15rem;
+    padding: .65rem 0;
+  }
+
+  .honor-date {
+    color: #777;
+    font-weight: 600;
+  }
+
+  .honors-group-title {
+    margin-left: 0;
+  }
+
+  .honor-title {
+    font-size: .88rem;
+  }
+}
