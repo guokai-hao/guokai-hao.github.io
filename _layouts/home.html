@@ -61,6 +61,69 @@ layout: default
   </div>
 </section>
 
+{% if site.data.honors %}
+<section id="honors" class="academic-section honors-section">
+  <h2>荣誉获奖</h2>
+
+  <div class="honors-container">
+    {% for section in site.data.honors %}
+      <div class="honors-category">
+
+        <h3 class="honors-category-title">
+          {{ section.title }}
+        </h3>
+
+        {% for group in section.groups %}
+
+          {% if group.name and group.name != "" %}
+            <h4 class="honors-group-title">
+              {{ group.name }}
+            </h4>
+          {% endif %}
+
+          <div class="honors-list">
+            {% for honor in group.items %}
+              <div class="honor-item">
+
+                <div class="honor-date">
+                  {{ honor.date }}
+                </div>
+
+                <div class="honor-content">
+
+                  <div class="honor-title-line">
+                    <span class="honor-title">
+                      {{ honor.title }}
+                    </span>
+
+                    {% if honor.award %}
+                      <span class="honor-award">
+                        {{ honor.award }}
+                      </span>
+                    {% endif %}
+                  </div>
+
+                  {% if honor.organization %}
+                    <div class="honor-organization">
+                      {{ honor.organization }}
+                    </div>
+                  {% endif %}
+
+                </div>
+
+              </div>
+            {% endfor %}
+          </div>
+
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
 <script>
 (function () {
