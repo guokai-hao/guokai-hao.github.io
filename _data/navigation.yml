@@ -1,14 +1,14 @@
 - title: "个人简介"
   url: "/#about"
 
+- title: "研究工作概览"
+  url: "/#overview"
+
 - title: "研究方向"
   url: "/#research"
 
 - title: "发表论文"
   url: "/#publications"
-
-- title: "研究概述"
-  url: "/#overview"
 
 - title: "荣誉获奖"
   url: "/#honors"
