@@ -1,71 +1,433 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>你的名字 | Academic Homepage</title>
+
+    <!-- 修改这里：浏览器标签页标题 -->
+    <title>郝国凯 | Academic Homepage</title>
+
+    <meta name="description"
+          content="Personal academic homepage - Reinforcement Learning, Meta-RL and Multi-Agent Reinforcement Learning">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
-<h1>你的名字</h1>
+<!-- =========================
+     顶部导航栏
+========================= -->
+<nav class="navbar">
+    <div class="nav-container">
 
-<p>
-学校 / 学院 / 专业
-</p>
+        <!-- 修改这里 -->
+        <div class="nav-name">你的名字</div>
 
-<h2>Research Interests</h2>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#research">Research</a>
+            <a href="#publications">Publications</a>
+            <a href="#slides">Slides</a>
+            <a href="#contact">Contact</a>
+        </div>
 
-<ul>
-    <li>Reinforcement Learning</li>
-    <li>Meta Reinforcement Learning</li>
-    <li>Multi-Agent Reinforcement Learning</li>
-    <li>Robust & Safe Decision Making</li>
-</ul>
+    </div>
+</nav>
 
-<h2>About Me</h2>
 
-<p>
-我的研究主要关注强化学习、元强化学习以及多智能体协同决策，
-重点研究复杂动态环境下智能体的泛化、鲁棒性与快速适应能力。
-</p>
+<main class="container">
 
-<h2>Research</h2>
 
-<h3>UP-MRL</h3>
+<!-- =========================
+     个人信息
+========================= -->
+<section class="hero">
 
-<p>
-Uncertainty-aware Physics-informed Meta Reinforcement Learning.
-面向时变物理系统的跨场景自适应控制研究。
-</p>
+    <div class="hero-text">
 
-<h3>Multi-Agent Reinforcement Learning</h3>
+        <!-- 修改这里 -->
+        <h1>你的名字</h1>
 
-<p>
-关注多智能体协同、序列决策以及扩散策略等方向。
-</p>
+        <!-- 修改这里 -->
+        <p class="english-name">Your English Name</p>
 
-<h2>Slides</h2>
+        <!-- 修改这里 -->
+        <p class="affiliation">
+            华中科技大学 · 人工智能与自动化学院 · 博士研究生
+        </p>
 
-<p>
-<a href="research-overview.pdf">
-个人主要研究工作 PDF
-</a>
-</p>
+        <p class="research-line">
+            Reinforcement Learning · Meta-RL · Multi-Agent Reinforcement Learning
+        </p>
 
-<h2>CV</h2>
 
-<p>
-<a href="cv.pdf">
-Download CV
-</a>
-</p>
+        <div class="hero-buttons">
 
-<h2>Contact</h2>
+            <!-- 如果 CV.pdf 就是你当前上传的 PDF，则不用修改 -->
+            <a class="button primary"
+               href="CV.pdf"
+               target="_blank">
+                Research Slides
+            </a>
 
-<p>
-Email: your-email@example.com
-</p>
+            <!-- 修改邮箱 -->
+            <a class="button"
+               href="mailto:gkhaoaia@163.com">
+                Email
+            </a>
+            <a class="button" href="mailto:d202381408@hust.edu.cn">HUST Email</a>
+            
+        </div>
+
+    </div>
+
+
+    <!--
+    如果后面想放头像，把下面这段取消注释，
+    并上传 profile.jpg 到仓库。
+
+    <div class="hero-photo">
+        <img src="WeChatProfilePicture.jpg" alt="个人头像">
+    </div>
+    -->
+
+</section>
+
+
+
+<!-- =========================
+     About Me
+========================= -->
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <!-- 修改这里 -->
+    <p>
+        我目前主要关注强化学习及其在复杂动态环境中的智能决策问题，
+        研究方向包括高效强化学习、鲁棒与安全强化学习、
+        元强化学习以及多智能体强化学习。
+    </p>
+
+    <p>
+        我的研究兴趣聚焦于提升智能体在不确定环境中的
+        学习效率、鲁棒性、跨场景泛化能力与多智能体协同决策能力。
+    </p>
+
+</section>
+
+
+
+<!-- =========================
+     Research Interests
+========================= -->
+<section id="research">
+
+    <h2>Research Interests</h2>
+
+    <div class="tags">
+
+        <span>Efficient Reinforcement Learning</span>
+
+        <span>Robust & Safe RL</span>
+
+        <span>Meta Reinforcement Learning</span>
+
+        <span>Multi-Agent Reinforcement Learning</span>
+
+    </div>
+
+
+    <div class="research-grid">
+
+
+        <!-- 研究方向 1 -->
+        <div class="research-card">
+
+            <h3>Efficient Reinforcement Learning</h3>
+
+            <p>
+                面向强化学习样本效率与策略优化问题，
+                研究更加高效、稳定的策略学习方法。
+            </p>
+
+        </div>
+
+
+        <!-- 研究方向 2 -->
+        <div class="research-card">
+
+            <h3>Robust & Safe Reinforcement Learning</h3>
+
+            <p>
+                面向环境不确定性与安全约束，
+                研究具有鲁棒性和可靠性的智能决策方法。
+            </p>
+
+        </div>
+
+
+        <!-- 研究方向 3 -->
+        <div class="research-card">
+
+            <h3>Meta Reinforcement Learning</h3>
+
+            <p>
+                关注智能体在不同任务与动态环境之间的
+                快速适应、知识迁移与跨场景泛化。
+            </p>
+
+        </div>
+
+
+        <!-- 研究方向 4 -->
+        <div class="research-card">
+
+            <h3>Multi-Agent Reinforcement Learning</h3>
+
+            <p>
+                研究多智能体环境中的协同决策、
+                群体智能、博弈学习与复杂策略建模。
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     Publications
+========================= -->
+<section id="publications">
+
+    <h2>Publications</h2>
+
+
+    <!-- =========================
+         论文 1
+         复制整个 publication 块即可增加论文
+    ========================= -->
+    <div class="publication">
+
+        <div class="pub-year">
+            2026
+        </div>
+
+        <div class="pub-content">
+
+            <!-- 修改论文标题 -->
+            <h3>
+                Your Paper Title
+            </h3>
+
+            <!-- 修改作者 -->
+            <p class="authors">
+                <strong>Your Name</strong>,
+                Author B,
+                Author C
+            </p>
+
+            <!-- 修改会议/期刊 -->
+            <p class="venue">
+                Journal / Conference Name, 2026
+            </p>
+
+            <!-- 有论文链接则填写；没有可以直接删掉 -->
+            <div class="pub-links">
+
+                <a href="#"
+                   target="_blank">
+                    Paper
+                </a>
+
+                <a href="#"
+                   target="_blank">
+                    DOI
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================
+         论文 2
+    ========================= -->
+    <div class="publication">
+
+        <div class="pub-year">
+            2025
+        </div>
+
+        <div class="pub-content">
+
+            <h3>
+                Your Second Paper Title
+            </h3>
+
+            <p class="authors">
+                Author A,
+                <strong>Your Name</strong>,
+                Author C
+            </p>
+
+            <p class="venue">
+                Journal / Conference Name, 2025
+            </p>
+
+            <div class="pub-links">
+
+                <a href="#"
+                   target="_blank">
+                    Paper
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     Research Slides
+========================= -->
+<section id="slides">
+
+    <h2>Research Slides</h2>
+
+    <div class="slides-card">
+
+        <div class="slides-info">
+
+            <span class="slides-label">
+                RESEARCH OVERVIEW
+            </span>
+
+            <h3>
+                个人主要研究工作
+            </h3>
+
+            <p>
+                我的强化学习研究方向与代表性工作，
+                包括高效强化学习、鲁棒与安全强化学习、
+                元强化学习以及多智能体协同决策。
+            </p>
+
+
+            <div class="slides-buttons">
+
+                <!-- CV.pdf 是你当前上传的文件 -->
+                <a class="button primary"
+                   href="CV.pdf"
+                   target="_blank">
+                    View PDF
+                </a>
+
+                <a class="button"
+                   href="CV.pdf"
+                   download>
+                    Download
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--
+    PDF 在线预览
+
+    如果你觉得主页太长，可以删除整个 pdf-preview。
+
+    如果希望网页里面直接看到 PPT/PDF，
+    就保留。
+    -->
+
+    <div class="pdf-preview">
+
+        <iframe
+            src="CV.pdf"
+            title="Research Slides PDF">
+        </iframe>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================
+     Contact
+========================= -->
+<section id="contact">
+
+    <h2>Contact</h2>
+
+    <div class="contact-box">
+
+        <!-- 修改邮箱 -->
+        <p>
+            <strong>Email</strong><br>
+            <a href="mailto:your-email@example.com">
+                your-email@example.com
+            </a>
+        </p>
+
+
+        <!-- 修改单位 -->
+        <p>
+            <strong>Affiliation</strong><br>
+            Huazhong University of Science and Technology
+        </p>
+
+
+        <!-- 可选：办公室地址 -->
+        <p>
+            <strong>Location</strong><br>
+            Wuhan, China
+        </p>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =========================
+     页脚
+========================= -->
+<footer>
+
+    <!-- 修改名字 -->
+    <p>
+        © 2026 Your Name · Academic Homepage
+    </p>
+
+    <p>
+        Powered by GitHub Pages
+    </p>
+
+</footer>
+
 
 </body>
 </html>
