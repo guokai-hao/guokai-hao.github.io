@@ -2,14 +2,20 @@
 # Research Interests
 # 想增删研究方向，直接复制 / 删除一个 title + description 即可
 # ============================================================
-- title: "Efficient Reinforcement Learning"
-  description: "Improving sample efficiency and policy optimization."
+- title: "智能决策与强化学习"
+  description: "：熟练掌握深度强化学习，元强化学习，安全强化学习，鲁棒强化学习，联邦强化学习，图强化学习，多智能体强化学习等算法，具备知识驱动与混合智能决策架构设计能力，主要针对强化学习性能提升、仿真偏差、不确定
+性、安全性、泛化性等方面开展研究工作。 "
 
-- title: "Robust & Safe Reinforcement Learning"
-  description: "Reliable decision-making under uncertainty and safety constraints."
+- title: "强化学习应用场景"
+  description: "：具备将强化学习迁移至多类序贯决策场景的建模与实验能力。主要面向电力系统、电力市场决策、储能调
+度、综合能源系统、雷达干扰、导弹制导等场景开展强化学习建模与实验；能够依据不同问题场景，完成个性化状态建模、动
+作空间与编码设计、奖励函数构造与塑形、探索策略与安全约束等，实现针对性算法设计。 "
 
-- title: "Meta Reinforcement Learning"
-  description: "Fast adaptation and cross-task generalization in changing environments."
+- title: "智能优化"
+  description: "：熟悉遗传算法、粒子群优化、差分进化、贝叶斯优化等智能优化方法，理解约束处理、Pareto前沿搜索及多目标优
+化机制。熟练使用混合整数线性规划、ε-约束法、匈牙利算法开展复杂系统优化建模；理解随机优化、鲁棒优化的基本思想与
+适用场景，具备将进化算法、强化学习与数学规划方法相结合用于复杂系统调度、参数寻优和多目标决策建模的实验能力。"
 
-- title: "Multi-Agent Reinforcement Learning"
-  description: "Cooperative decision-making, game-theoretic learning, and multi-agent coordination."
+- title: "数学建模与系统优化"
+  description: "掌握混合整数线性规划、随机优化与鲁棒优化等最优化算法。具备面向电力系统，电力市场，综合能源
+系统，数据中心，储能系统等场景的数学建模与分析能力。具备利用物理信息神经网络的模型拟合与构建能力。 "
