@@ -2,17 +2,17 @@
 # Academic Homepage based on Not Pure Poole
 # ============================================================
 
-title: "你的名字"
+title: "Guokai Hao"
 description: "Ph.D. Student | Reinforcement Learning"
 url: "https://guokai-hao.github.io"
 baseurl: ""
 lang: "en"
 
 # 替换成你自己的头像文件；默认提供 profile-placeholder.png
-avatar: /profile-placeholder.png
+avatar: /WeChatProfilePicture.jpg
 
 # 学术主页采用白色侧边栏，不再使用博客背景图
-cover_bg_color: "#ffffff"
+cover_bg_color: "#d6ecf0"
 cover_color: "#444444"
 
 permalink: pretty
@@ -37,7 +37,7 @@ twitter:
   card: summary
 
 social:
-  name: "你的名字"
+  name: "Guokai Hao"
   links:
     - https://github.com/guokai-hao
 
@@ -46,6 +46,6 @@ sass:
   style: :compressed
 
 author:
-  name: "你的名字"
+  name: "Guokai Hao"
   url: "https://guokai-hao.github.io"
   email: "your-email@example.com"
