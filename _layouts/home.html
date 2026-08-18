@@ -5,14 +5,14 @@ layout: default
 {% assign profile = site.data.profile %}
 
 <section id="about" class="academic-section about-section">
-  <h2>About Me</h2>
+  <h2>个人简介</h2>
   {% for paragraph in profile.about %}
     <p>{{ paragraph }}</p>
   {% endfor %}
 </section>
 
 <section id="research" class="academic-section">
-  <h2>Research Interests</h2>
+  <h2>研究方向</h2>
   <ul class="research-interest-list">
     {% for item in site.data.research %}
       <li><strong>{{ item.title }}:</strong> {{ item.description }}</li>
@@ -20,7 +20,7 @@ layout: default
   </ul>
 </section>
 
-<section id="publications" class="academic-section">
+<section id="发表论文" class="academic-section">
   <h2>Publications</h2>
 
   <div class="publication-list">
