@@ -1,23 +1,91 @@
 # ============================================================
 # Publications
-# 每篇论文复制一整个 “- year: ...” 块即可
-# 没有某个链接时，直接删掉对应的 links 项
-# authors 支持 HTML，例如用 <strong>你的名字</strong> 加粗自己
+# 论文按年份从新到旧排列
+# 点击论文标题可直接访问对应论文网页
+# authors 支持 HTML，可用 <strong>...</strong> 加粗本人姓名
 # ============================================================
+
+# -------------------------
+# 2026
+# -------------------------
+
 - year: 2026
-  title: "Your First Paper Title"
-  authors: "Author A, <strong>Your Name</strong>, Author C, Author D"
-  venue: "Journal / Conference Name, 2026"
-  links:
-    - label: "PDF"
-      url: "#"
-    - label: "DOI"
-      url: "#"
+  title: "Deep Reinforcement Learning for Online Reconfiguration of Active Distribution Network"
+  authors: "<strong>Guokai Hao</strong>, Yuanzheng Li, Yang Li, Yunfeng Luo, Mohammad Shahidehpour, Zhigang Zeng"
+  venue: "IEEE Transactions on Neural Networks and Learning Systems, 37(3): 1248–1262, 2026"
+  url: "https://ieeexplore.ieee.org/document/11215839"
+
+- year: 2026
+  title: "Robust Reinforcement Learning-Based Resilient Operation of Networked Microgrids"
+  authors: "<strong>Guokai Hao</strong>, Yuanzheng Li, Yang Li, Jiehui Zheng, Wei Yao, Lin Jiang, Yunfeng Luo"
+  venue: "IEEE Transactions on Industry Applications, 62(2): 3515–3530, 2026"
+  url: "https://ieeexplore.ieee.org/document/11196768"
+
+- year: 2026
+  title: "Knowledge-Driven and Reinforcement Learning-Based Hybrid Resilient Dispatch for Process-Based Industrial Park Microgrids"
+  authors: "<strong>Guokai Hao</strong>, Yuanzheng Li, Zhaohui Qie, Jiehui Zheng, Shangyang He, Chi Yung Chung"
+  venue: "2026 IEEE PES International Meeting, pp. 1–5, 2026"
+  url: "https://ieeexplore.ieee.org/document/11438589"
+
+
+# -------------------------
+# 2025
+# -------------------------
 
 - year: 2025
-  title: "Your Second Paper Title"
-  authors: "<strong>Your Name</strong>, Author B, Author C"
-  venue: "Journal / Conference Name, 2025"
-  links:
-    - label: "PDF"
-      url: "#"
+  title: "Lyapunov-Based Safe Reinforcement Learning for Microgrid Energy Management"
+  authors: "<strong>Guokai Hao</strong>, Yuanzheng Li, Yang Li, Lin Jiang, Zhigang Zeng"
+  venue: "IEEE Transactions on Neural Networks and Learning Systems, 36(6): 9985–9999, 2025"
+  url: "https://ieeexplore.ieee.org/document/10795439"
+
+- year: 2025
+  title: "Safe Reinforcement Learning for Active Distribution Networks Reconfiguration Considering Uncertainty"
+  authors: "<strong>Guokai Hao</strong>, Yuanzheng Li, Yang Li, Kuo Guang, Zhigang Zeng"
+  venue: "IEEE Transactions on Industry Applications, 61(1): 1757–1769, 2025"
+  url: "https://ieeexplore.ieee.org/document/10681273"
+
+- year: 2025
+  title: "Graph Learning for Power Flow Analysis: A Global-Receptive Graph Iteration Network Method"
+  authors: "Junyan Huang, Yuanzheng Li, Shangyang He, <strong>Guokai Hao</strong>, Chunjie Zhou, Zhigang Zeng"
+  venue: "IEEE Transactions on Network Science and Engineering, 12(2): 599–609, 2025"
+  url: "https://ieeexplore.ieee.org/document/10767377"
+
+- year: 2025
+  title: "Hierarchical Uncertainty Characterization of Monthly Net Load in Renewable Power Systems"
+  authors: "Xiao Yang, Yuanzheng Li, Yong Zhao, <strong>Guokai Hao</strong>, Takayuki Ishizaki, Zhigang Zeng"
+  venue: "IEEE Transactions on Automation Science and Engineering, 22: 3515–3527, 2025"
+  url: "https://ieeexplore.ieee.org/document/10587182"
+
+- year: 2025
+  title: "Gaussian Mixture Model Uncertainty Modeling for Power Systems Considering Mutual Assistance of Latent Variables"
+  authors: "Xiao Yang, Yuanzheng Li, Yong Zhao, Yang Li, <strong>Guokai Hao</strong>, Yan-Wu Wang"
+  venue: "IEEE Transactions on Sustainable Energy, 16(2): 1483–1486, 2025"
+  url: "https://ieeexplore.ieee.org/document/10409621"
+
+
+# -------------------------
+# 2023
+# -------------------------
+
+- year: 2023
+  title: "基于深度强化学习与演化计算的风-水-火混合增强智能调度"
+  authors: "李远征, <strong>郝国凯</strong>, 杨东升, 等"
+  venue: "中国科学：技术科学, 53(7): 1097–1113, 2023"
+  url: "https://doi.org/10.1360/SST-2022-0333"
+
+
+# -------------------------
+# 2022
+# -------------------------
+
+- year: 2022
+  title: "Many-Objective Distribution Network Reconfiguration Via Deep Reinforcement Learning Assisted Optimization Algorithm"
+  authors: "Yuanzheng Li, <strong>Guokai Hao</strong>, Yun Liu, Yaowen Yu, Zhixian Ni, Yong Zhao"
+  venue: "IEEE Transactions on Power Delivery, 37(3): 2230–2244, 2022"
+  url: "https://ieeexplore.ieee.org/document/9524511"
+
+- year: 2022
+  title: "Deep Reinforcement Learning for Charging Electric Vehicles With Uncertain Photovoltaic Power"
+  authors: "Haiyan Liang, Zhuo Wang, <strong>Guokai Hao</strong>, Li Xiao, Zhigang Sun"
+  venue: "2022 China Automation Congress (CAC), pp. 1225–1231, 2022"
+  url: "https://ieeexplore.ieee.org/document/10055292"
