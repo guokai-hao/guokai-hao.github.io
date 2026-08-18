@@ -1,0 +1,19 @@
+# ============================================================
+# 左侧学术链接
+# 把 URL 改成你自己的即可；不需要的条目可直接删除
+# ============================================================
+- title: Email
+  url: mailto:your-email@example.com
+  icon: fas fa-envelope
+
+- title: Google Scholar
+  url: https://scholar.google.com/
+  icon: fas fa-graduation-cap
+
+- title: ORCID
+  url: https://orcid.org/
+  icon: fas fa-id-card
+
+- title: GitHub
+  url: https://github.com/guokai-hao
+  icon: fab fa-github
