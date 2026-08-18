@@ -6,7 +6,7 @@ title: "Guokai Hao"
 description: "Ph.D. Student | Reinforcement Learning"
 url: "https://guokai-hao.github.io"
 baseurl: ""
-lang: "en"
+lang: "zh-CN"
 
 # 替换成你自己的头像文件；默认提供 profile-placeholder.png
 avatar: /WeChatProfilePicture.jpg
@@ -40,6 +40,8 @@ social:
   name: "Guokai Hao"
   links:
     - https://github.com/guokai-hao
+    - https://orcid.org/0000-0001-6409-1958
+    - https://ieeexplore.ieee.org/author/37089391665
 
 sass:
   sass_dir: _sass
@@ -48,4 +50,4 @@ sass:
 author:
   name: "Guokai Hao"
   url: "https://guokai-hao.github.io"
-  email: "your-email@example.com"
+  email: "gkhaoaia@163.com"
