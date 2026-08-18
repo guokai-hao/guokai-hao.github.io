@@ -22,7 +22,12 @@
   <div class="academic-email">
     <a href="mailto:{{ profile.email }}"><i class="fas fa-envelope"></i> {{ profile.email }}</a>
   </div>
-
+  {% if profile.wechat %}
+    <div class="academic-wechat">
+      <i class="fab fa-weixin"></i> {{ profile.wechat }}
+    </div>
+  {% endif %}
+  
   {%- if site.data.navigation -%}
   <nav class="navigation academic-navigation">
     <ul class="navigation-list">
