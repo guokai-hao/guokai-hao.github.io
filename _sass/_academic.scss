@@ -458,3 +458,19 @@ html {
     margin-top: .5rem;
   }
 }
+
+
+/* 最后一条荣誉不显示底部分隔线 */
+.honors-category:last-child .honors-list:last-child .honor-item:last-child {
+  border-bottom: none;
+}
+
+/* 最后一个荣誉分类不要留下额外底部间距 */
+.honors-category:last-child {
+  margin-bottom: 0;
+}
+
+/* 荣誉获奖作为页面最后一个 section，缩小与 footer 的间距 */
+.honors-section {
+  margin-bottom: 1rem;
+}
